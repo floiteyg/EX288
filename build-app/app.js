@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('Simple app for the Building Applications Lab!\n');
 });
 
-app.listen(3000, function () {
+app.listen(8080
   console.log('Simple app for the Building Applications Lab!');
 });
 
