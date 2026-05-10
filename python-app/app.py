@@ -6,9 +6,10 @@ app = Flask(__name__)
 def home():
     return "Python EX288 app is running!\n"
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
-
 @app.route("/healthz")
 def health():
     return "OK\n"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
+
